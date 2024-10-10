@@ -1,0 +1,92 @@
+css
+/* reset.css */
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent font size */
+html {
+    font-size: 100%; /* 16px by default */
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/* Remove table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Basic form styles */
+input, button, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+/* Set image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove bottom space */
+}
+
+/* Set default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Set default styles for blockquotes */
+blockquote {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+
+/* Set default styles for horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+/* Remove default styles for buttons */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Set default styles for the 
+fieldset
+ element */
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+/* Set default styles for the 
+legend
+ element */
+legend {
+    display: none; /* Hide legend by default */
+}

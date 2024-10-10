@@ -1,0 +1,59 @@
+body {
+    background-color: darkmagenta;
+}
+
+#imgtitle {
+    width: 13em;
+}
+
+#title {
+    color: darkgoldenrod;
+}
+
+.title {
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.subtitle {
+    font-family: fantasy;
+    font-size: 23px;
+    color: rgb(71, 28, 28);
+}
+
+.libro {
+    width: 17em;
+    height: 23em;
+
+}
+
+.portada {
+    background-color: mediumpurple;
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.biblioteca {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.biblioteca :hover{
+    background-color: blue;
+}
+    
+    
